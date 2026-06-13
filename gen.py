@@ -4,8 +4,6 @@ import string
 
 app = Flask(__name__)
 
-print("starting app")
-
 @app.route("/",methods=["GET","POST"])
 def home():
     password = ""
